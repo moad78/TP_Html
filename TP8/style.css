@@ -167,28 +167,3 @@ h1 span:nth-child(5) {
         text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black,0 6px 0 black,0 7px 0 black,0 8px 0 black,0 9px 0 black,0 60px 30px rgba(0,0,0.3);
     }
 }
-
-@media (max-width: 900px) {
-    h1 span {
-        font-size: 2.2rem;
-    }
-    .block1 {
-        flex: 1 1 45%;
-    }
-}
-
-/* Écran mobile */
-@media (max-width: 600px) {
-    h1 span {
-        font-size: 1.8rem;
-    }
-    .mv {
-        flex-direction: column;
-    }
-    .block1 {
-        flex: 1 1 100%;
-    }
-    p {
-        font-size: 16px;
-    }
-}
